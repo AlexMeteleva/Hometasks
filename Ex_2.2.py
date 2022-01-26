@@ -1,6 +1,12 @@
-user_seconds = int(input('Введите количество секунд: '))
-number_of_seconds = user_seconds % 60
-number_of_minutes = (user_seconds // 60) % 60
-number_of_hours = user_seconds // 3600
-result = f'{number_of_hours:02}:{number_of_minutes:02}:{number_of_seconds:02}'
-print(result)
+num = int(input('Введите количество элементов в списке: '))
+my_list = []
+for i in range(num):
+    elem = input('Введите элемент списка: ')
+    my_list.append(elem)
+
+if num > 1:
+    i = 0
+    while i < num - 1:
+        my_list[i], my_list[i+1] = my_list[i+1], my_list[i]
+        i += 2
+print(my_list)
