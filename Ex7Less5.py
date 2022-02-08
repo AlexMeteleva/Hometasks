@@ -18,3 +18,4 @@ with open ('result.json', 'w', encoding='utf-8') as file:
 with open ('result.json', 'w', encoding='utf-8') as file:
     result = json.load(file)
     print(result)
+

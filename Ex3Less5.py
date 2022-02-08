@@ -11,3 +11,4 @@ print(f'средняя заработная плата составляет: {av
 for key, val in staff.items():
     if val < 20000:
         print(f' {key}: {val}')
+

@@ -6,3 +6,4 @@ with open ('Ex2Less5.txt', 'r') as file_r:
         words = len(line.split())
         print(f'Количество слов в строке {el+1}: {words}')
     print(f'Количество строк в файле: {count}')
+

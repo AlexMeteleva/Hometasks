@@ -8,3 +8,4 @@ with open('file_num.txt') as file:
     for n in string:
         amount += int(n)
 print(amount)
+
